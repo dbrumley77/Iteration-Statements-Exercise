@@ -79,9 +79,9 @@
             Console.WriteLine("What is your age");
             string userInput = Console.ReadLine();
 
-            int age = int.Parse(userInput);
+            int parsedAge = int.Parse(userInput);
 
-            if (age >= 18)
+            if (parsedAge >= 18)
             {
                 Console.WriteLine("Congrats, you can vote!");
             }
@@ -128,9 +128,9 @@
         static void Main(string[] args)
         {
             //PrintNumbers();
-            //PrintNumbersByThree();
+            PrintNumbersByThree();
             //Console.WriteLine(AreTheyEqual(6, 8));
-            //IsEvenOrOdd(625);
+            //IsEvenOrOdd(400);
             //IsPositiveOrNegative(0);
             //CheckAgeForVoting();
             //CheckIfInRange();
